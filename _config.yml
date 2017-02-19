@@ -1,14 +1,14 @@
 # Site settings
-title: Santa Barbara Hackerspace
+title: "#sbhackerspace"
 email: info@sbhackerspace.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Santa Barbara Hackerspace is the world's greatest hackerspace in Santa Barbara.  Founded in 2010, SBHX is a federally recognized 501(c)(3) non-profit organization, with a large and diverse membership base ranging in age from 12 to 70 years, and with interested spanning everything from HAM radio, weather balloons, electronics, programming, 3D printing, drones, prop making, and much more.
 baseurl: "" # the subpath of your site, e.g. /blog/
+keywords: "Santa Barbara Hackerspace, Hackerspace, Makerspace, SBHX, Builders, Makers, Make, Open-Source, DIY, Workshop, Electronics, Tracksoar"
 url: "http://sbhackerspace.com" # the base hostname & protocol for your site
 twitter_username: sbhackerspace
 github_username:  sbhackerspace
+permalink: pretty
+timezone: 	America/Los_Angeles
 
 # Build settings
 markdown: kramdown
