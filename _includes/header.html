@@ -6,6 +6,8 @@
             <li><a href="{{ site.baseurl }}/">Home</a></li>
 <!--             <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
             <li><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li> -->
+            <li><a href="http://wiki.sbhackerspace.com">Wiki</a></li>
+            <li><a href="{{ site.baseurl }}/irc.html">IRC</a></li>
             <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
             <li><a href="{{ site.baseurl }}/contact.html">Contact Us</a></li>
             {% for page in site.pages %}
@@ -13,7 +15,7 @@
                     <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                   {% endif %}
             {% endfor %}
-            <li><a href="#" class="button special">Sign Up</a></li>
+            <li><a href="{{ site.baseurl }}/sign-up.html" class="button special">Sign Up</a></li>
         </ul>
     </nav>
 </header>

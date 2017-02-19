@@ -446,7 +446,7 @@
 			display: inline-block;
 			margin: 0 0 1.25em 0;
 			color: #ffffff;
-			background: #629DD1;
+			background: #4fb94d;
 			width: 3em;
 			height: 3em;
 			font-size: 2em;
@@ -810,7 +810,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #629DD1;
+			background-color: #4fb94d;
 			color: #ffffff !important;
 		}
 
@@ -818,7 +818,7 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #76a9d7;
+				background-color: #1fab57;
 			}
 
 			input[type="submit"].special:active,
@@ -917,6 +917,7 @@
 
 			#header h1 a {
 				font-size: 1.25em;
+				color: #4fb94d;
 			}
 
 		#header nav {
@@ -1016,7 +1017,9 @@
 			}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #ffffff;
+			color: #4fb94d;
+			font-weight: bold;
+			text-shadow: 1px 1px #000000;
 		}
 
 		#banner .button.alt {
@@ -1048,8 +1051,11 @@
 		}
 
 		#banner p {
-			font-size: 1.5em;
+			font-size: 3.0em;
+			line-height: 1.0em;
+			font-weight: 700;
 			margin-bottom: 2em;
+			text-shadow: 1px 1px #000000;
 		}
 
 			#banner p a {
@@ -1093,3 +1099,13 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+/* Vimeo Videos */
+
+.vimeoFrame {
+/*	width:638px; 
+	height:358px; */
+/*	overflow:hidden; 
+	margin:0 auto;*/} 
+/*.vimeoFrame .vimeoXtra {
+	margin-top:-100px;}	*/	
