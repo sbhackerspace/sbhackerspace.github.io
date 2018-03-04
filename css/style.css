@@ -190,7 +190,7 @@
 
 	header.major {
 		text-align: center;
-		margin: 0 0 4em 0;
+		margin: 0 0 3em 0;
 	}
 
 		header.major h2 {
@@ -1100,6 +1100,11 @@
 			color: #bbb;
 		}
 
+	.carousel-caption h1 {
+		color: #4fb94d;
+		size: : 5.0em;
+		text-shadow: black 0px 0px 50px;
+	}
 /* Vimeo Videos */
 
 .vimeoFrame {

@@ -12,3 +12,6 @@ timezone: 	America/Los_Angeles
 
 # Build settings
 markdown: kramdown
+
+# deployment
+host: 0.0.0.0
