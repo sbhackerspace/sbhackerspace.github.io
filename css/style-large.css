@@ -16,8 +16,16 @@
 		padding: 8em 0;
 	}
 
-		#banner h2 {
-			font-size: 4.0em;
+  .carousel-caption h1 {
+      font-size: 3.5em;
+      line-height: 1em;
+      font-weight: bold;
+  }
+
+	#banner h2,
+  .carousel-text {
+			font-size: 3em;
+      line-height: 1em;
 		}
 
 /* Footer */
