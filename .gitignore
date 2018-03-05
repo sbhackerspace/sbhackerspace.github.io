@@ -1,2 +1,13 @@
 _site/
 .sass-cache/
+
+# various nonsense
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+# backup/temp files:
+*~
+
