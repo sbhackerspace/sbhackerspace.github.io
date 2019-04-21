@@ -8,13 +8,21 @@ keywords: "Santa Barbara Hackerspace, Hackerspace, Makerspace, SBHX, Builders, M
 twitter_username: sbhackerspace
 github_username:  sbhackerspace
 
+# Build settings
+markdown: kramdown
+
 # Output
 permalink: "/:year/:month/:day/:title/"
 timezone: America/Los_Angeles
 
-# Build settings
-markdown: kramdown
+# Plugins:
+plugins:
+- jekyll-paginate
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/:num/"
 
 # SEO
 twitter:
-    username: sbhackerspace
+  username: sbhackerspace

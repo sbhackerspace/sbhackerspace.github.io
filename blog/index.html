@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Blog
-sort: 1
 ---
 
 <!-- Banner -->
@@ -11,7 +10,7 @@ sort: 1
     </div>
 </section>
 <section id="main" class="wrapper style1">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         <div class="wrapper {% cycle 'style1', 'style2' %}">
             <header class="major">
                 <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
