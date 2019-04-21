@@ -17,6 +17,7 @@ timezone: America/Los_Angeles
 
 # Plugins:
 plugins:
+- jekyll-feed
 - jekyll-paginate
 - jekyll-seo-tag
 
