@@ -18,6 +18,7 @@ timezone: America/Los_Angeles
 # Plugins:
 plugins:
 - jekyll-paginate
+- jekyll-seo-tag
 
 # Pagination
 paginate: 10
