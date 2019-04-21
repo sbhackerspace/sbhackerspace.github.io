@@ -31,12 +31,12 @@ The button requires only 3 pins on the Pi to be connected and a 10k ohm resistor
 
 Here’s the fritzing verion:
 
-<img src="/images/2017-02-08-raspberry-pi-wifi-guest-code-generator/fritzing.png" width="50%"/>
+<img src="/assets/images/2017-02-08-raspberry-pi-wifi-guest-code-generator/fritzing.png" width="50%"/>
 
 Closeup of the completed wiring harness on the Pi for reference:
 
-<img src="/images/2017-02-08-raspberry-pi-wifi-guest-code-generator/closeup1.jpg" width="45%"/>
-<img src="/images/2017-02-08-raspberry-pi-wifi-guest-code-generator/closeup2.jpg" width="45%"/>
+<img src="/assets/images/2017-02-08-raspberry-pi-wifi-guest-code-generator/closeup1.jpg" width="45%"/>
+<img src="/assets/images/2017-02-08-raspberry-pi-wifi-guest-code-generator/closeup2.jpg" width="45%"/>
 
 Now that everything is connected together, it’s time to install the software that powers it.
 
