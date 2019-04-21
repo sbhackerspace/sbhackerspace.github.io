@@ -15,6 +15,16 @@ sort: 1
         <div class="wrapper {% cycle 'style1', 'style2' %}">
             <header class="major">
                 <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                <p class="post-meta">
+                    {{ post.date | date: "%b %-d, %Y" }}
+                    {% if post.author %} • {{ post.author }}{% endif %}
+                    {% if post.meta %} • {{ post.meta }}{% endif %}
+                    {% if post.categories.size > 0 %} • Category:
+                        {% for category in post.categories %}
+                            {{ category }}</a>{% unless forloop.last %}, {% endunless %}
+                        {% endfor %}
+                    {% endif %}
+                </p>
             </header>
             <section class="container">
                 {{ post.excerpt }}
