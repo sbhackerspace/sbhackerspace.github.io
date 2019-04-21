@@ -5,12 +5,7 @@
         <ul>
             <li><a href="{{ site.baseurl }}/">Home</a></li>
             <li><a href="https://github.com/sbhackerspace/sbhackerspace.github.io/wiki" target="_blank">Wiki</a></li>
-			{% assign sorted_pages = site.pages | sort:"sort" %}
-            {% for page in sorted_pages %}
-                  {% if page.title %}
-                    <li><a class="page-link {% if page.class %} {{ page.class }} {% endif %}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                  {% endif %}
-            {% endfor %}
+            <li><a href="{{ site.baseurl }}{% link blog.html %}">Blog</a></li>
 			<li><a class="page-link button special" href="https://signup.sbhackerspace.com" target="_blank">SIGN UP</a></li>
 			<li><a class="page-link button special" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MU5B8KCW68K98&source=url" target="_blank">DONATE</a></li>
         </ul>
