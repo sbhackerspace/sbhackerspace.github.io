@@ -2,6 +2,9 @@
 layout: post
 title: Raspberry Pi Wi-Fi Guest Code Generator
 slug: raspberry-pi-wi-fi-guest-code-generator
+author: swiss
+categories:
+- pi
 ---
 
 Over the weekend we built a WiFi guest code generator for our Unifi wireless network. The setup is built around a Raspberry Pi and USB thermal receipt printer. You can see the build in action below:
@@ -127,4 +130,4 @@ Now connect the Pi to your network, press the button, and see if it works!
 
 Here’s our finished printer with a sleek built in button and all the Raspberry Pi bits tucked into the printer for inspiration:
 
-<iframe src="https://www.youtube.com/embed/njwxZxf7B10?rel=0" allowfullscreen="" width="560" height="315" frameborder="0"/>
+<iframe src="https://www.youtube.com/embed/njwxZxf7B10?rel=0" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>

@@ -1,6 +1,12 @@
 ---
 layout: post
+title: Eagle CAD Class
+slug: eagle-cad-class
+author: swiss
+categories:
+- classes
 ---
+
 <img src="{{ site.baseurl }}/images/eagle-cad-class.jpg" class="fit image">
 To Sign up please visit: [http://sbhackerspace.com/shop/](http://sbhackerspace.com/shop/)
 and select the Eagle CAD class and checkout, payment is available via PayPal, credit, cash, or check. If you would like to pay with cash or check please email [info@sbhackerspace.com](mailto:info@sbhackerspace.com) so we can reserver your spot for the class.

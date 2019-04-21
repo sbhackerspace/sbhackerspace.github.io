@@ -5,20 +5,28 @@ layout: default
     <article class="container">
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            <p class="post-meta">
+                {{ page.date | date: "%b %-d, %Y" }}
+                {% if page.author %} • {{ page.author }}{% endif %}
+                {% if page.meta %} • {{ page.meta }}{% endif %}
+                {% if page.categories.size > 0 %} • Category:
+                    {% for category in page.categories %}
+                        {{ category }}</a>{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                {% endif %}
+            </p>
         </header>
 
         <section class="post-content">
             {{ content }}
         </section>
-        
         <footer>
             {% if page.previous %}
-            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
+            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a>
+            {% endif %}
             {% if page.next %}
-            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
+            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a>
+            {% endif %}
         </footer>
-
     </article>
-
 </div>
